@@ -1,0 +1,117 @@
+body {
+            background-color: white; 
+            margin: 0;
+            
+            font-family: 'Roboto Slab', serif;
+
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #e74c3c; 
+            font-weight:bolder;
+        }
+
+        hr {
+            border: 1px solid #e74c3c; 
+            margin:0px;
+        }
+
+        .container {
+            margin: auto;
+            width: 60%;
+            background-color: #fef9e7; 
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #e74c3c; 
+        }
+
+        input,
+        select,
+        textarea {
+            width: 90%;
+            padding: 8px;
+            margin-bottom: 10px;
+            margin-left: 13px;
+            box-sizing: border-box;
+            border: 1px solid #e74c3c; 
+        }
+
+        input[type="file"] {
+            margin-top: 5px;
+
+        }
+
+        input[type="range"] {
+            width: 30%;
+            margin-bottom: 15px;
+        }
+        input[type="radio"] {
+            width: auto;
+           
+        }
+        input[type="checkbox"] {
+            width: auto;
+            margin-bottom:0px;
+            margin-left: 10px;
+
+
+           
+        }
+
+        textarea {
+            resize: vertical;
+        }
+        input[type="submit"]{
+            width:100px;
+            border-radius: 5px;
+            color:white;
+            background-color: red;
+            margin-left:42%;
+        }
+       
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 80%;
+            }
+        }
+        .header{
+
+            display: inline-block;
+            margin-left: 20px;
+
+        }
+        .container1{
+            background-color:#fef9e7 ;
+            margin-bottom: 0px;
+        }
+        .nationality{
+            margin-bottom: 8px;
+
+        }
+        input[type="file"]{
+            width: 200px;
+        }
+        .box{
+            color:#CDCDCD;
+            border:dashed;
+            padding:10px;
+
+
+        }
+        footer {
+            margin-top:8px;
+            margin-bottom: 0px;
+            background-color:#e74c3c;
+            text-align: center;
+            padding: 8px;
+            color: white;
+        }

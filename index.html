@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Admission Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body bgcolor="#ffa535">
+    <div class="container1">
+        <img src="https://sts-school.edu.in/images/school-logo.png" style="width:100px;height: 100px;margin-left: 290px;margin-top: 10px;padding: 10px;">
+
+        <div class="header">
+            <h1>Chennai Public School</h1>
+            <h2>Higher Secondary Admission Form</h2>
+            <h2>2024-2025</h2>
+            <h2>Prayer Brings Victory!</h2>
+        </div>
+        
+    </div>
+ 
+	<hr><br>
+
+	<div class="container">
+	<form name="submit-to-google-sheet" action="" method="post"> <br>
+	    <label>Student's name:</label>
+	    <input type="text" name="student_name"><br>
+	    <br>
+	    <label>Father's Name:</label>
+	    <input type="text" name="father_name"><br>
+	    <br>
+	     <label>Mother's Name:</label>
+	    <input type="text" name="mother_name"><br>
+	    <br>
+	    <label>Date of birth:</label>
+	    <input type="date" name="date_of_birth"><br>
+	    <br>
+	    <label>Gender:</label>
+	    <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+	    <br>
+	    <br>
+	    <label>Group:</label>
+             <select id="Class" name="subject">
+            <option value="Bio-Maths">Bio-Maths</option>
+            <option value="Cse-Maths">Cse-Maths</option>
+            <option value="Buss-Maths">Business-Maths</option>
+            <option value="Commerce">Commerce</option>
+        </select>
+        <br>
+        <br>
+	   
+        <div class="box">
+	    <label>Residential Address:</label><br><br>
+        <label>Division</label>
+        <input type="text" name="residential_address">
+        <label>District:</label>
+	    <input type="text" name="district">
+	    <label>Address:</label>
+	    <input type="text" name="address">
+    </div><br>
+	    <br>
+	    
+        <div class="box">
+        <label>Permanent  Address:</label><br><br>
+	    <label>Division:</label>
+	    <input type="text" name="permanent_address">
+	    <label>District:</label>
+	    <input type="text" name="pdistrict">
+	    <label>Address:</label>
+	    <input type="text" name="address">
+    </div>
+	    <br>
+	    <br>
+
+	    <label>Religion:</label>
+	    <input type="text" name="religion"><br>
+	    <br>
+
+	    <label class="nationality">Nationality:</label>
+	    <label>Indian
+	    <input type="checkbox" name="indian"></label>
+	    <label>Foreigner
+	    <input type="checkbox" name="foreigner"></label><br>
+	   
+	    <label>Phone number:</label>
+	   <input type="tel" id="phone" name="phone"><br>
+	    <br>
+        <label>Email Address:</label>
+        <input type="email" name="email"><br>
+        <br>
+        <label>Occupation:</label>
+	    <input type="text" name="occupation"><br>
+	    <br>
+	    <label>Blood group:</label>
+        <select name="blood_group">
+          <option>A Positive</option>
+          <option>A Negative</option>
+          <option>A Unknown</option>
+          <option>B Positive</option>
+          <option>B Negative</option>
+          <option>B Unknown</option>
+          <option>AB Positive</option>
+          <option>AB Negative</option>
+          <option>AB Unknown</option>
+          <option>O Positive</option>
+          <option>O Negative</option>
+          <option>O Unknown</option>
+        </select> <br>
+	    <br>
+        <label>Previous year marksheet:</label>
+	    <input type="file" name="marksheet"><br>
+	    <br> 
+        <label>Photo of the Student:</label>
+        <input type="file" name="photo"><br>
+        <br>
+	    <label>Marital Status:</label>
+	    <input type="radio" name="Status" value="Single"> Single
+        <input type="radio" name="Status" value="Married"> Married<br>
+        <br>
+       
+        <label>Student's Sign:</label>
+	    <input type="file" name="student_sign"><br>
+	    <br>
+	    <label>Parent's Sign:</label>
+	    <input type="file" name="parent_signature"><br>
+	    <br>
+
+	    <label>Your rating for our school:</label>
+	    <input type="range" name="rating"><br>
+	    <br>
+        <label>Type your feedback here:</label>
+        <textarea name="feedback" rows="4" cols="4"></textarea><br>
+        <br>
+       <input type="submit"><br>
+       <span id="msg"></span>
+    </div>
+    </form>
+     <footer>
+            &copy; Copyright CPS 2023.
+     </footer>
+    
+<script src="script.js"></script>
+    
+</body>
+</html>
+
+
